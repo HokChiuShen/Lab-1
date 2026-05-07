@@ -3,9 +3,9 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
-        dofizzbuzz();
+        dofizzbuzz(100);
 
 //        for (int i = 1; i < 100; i++) {
 //
@@ -34,10 +34,10 @@ class FizzBuzz {
 //        }
     }
 
-    private static void dofizzbuzz() {
+    public static void dofizzbuzz(int num) {
         int count = 1;
 
-        while (count < 100){
+        while (count < num){
             boolean div3 = count % 3 == 0;
             boolean div5 = count % 5 == 0;
             if (div3 && div5){

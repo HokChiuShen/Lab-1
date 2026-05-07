@@ -5,7 +5,7 @@ class FizzBuzz {
 
     public static void main() {
 
-        dofizzbuzz(100);
+        dofizzbuzz(88);
 
 //        for (int i = 1; i < 100; i++) {
 //
